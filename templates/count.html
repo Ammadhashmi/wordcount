@@ -1,0 +1,10 @@
+<h1>Original Paragraph</h1>
+<p>{{fulltext}}</p>
+<h3>Count= {{textcount}}</h3>
+<h4>Dictionary: </h4>
+{% for word,count in worddict %}
+{{word}}
+<br>
+{{count}}
+<br>
+{% endfor %}
